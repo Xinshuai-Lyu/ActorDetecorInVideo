@@ -1,0 +1,2 @@
+model_checkpoint_path: "Ma_You_classify_model"
+all_model_checkpoint_paths: "Ma_You_classify_model"

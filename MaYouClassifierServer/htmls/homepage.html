@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MaYouDetectorHomepage</title>
+</head>
+<body>
+	<form action="detect_ma_you" method="post" enctype="multipart/form-data">
+	  {% csrf_token %}
+	  <div class="form-example">
+	    <label for="client_image">Add Image:</label>
+		<input type="file"
+		       id="client_image" name="client_image"
+		       accept="image/png, image/jpeg">
+	  </div>
+	  <div class="form-example">
+	    <input type="submit" value="upload Image">
+	  </div>
+	</form>
+</body>
+</html>
